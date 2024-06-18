@@ -1,13 +1,15 @@
+
+import "./Services.css"
 function Services () {
   return (
     <div className="services">
-      <h2>Are you wondering where to get technological services?</h2>
+      <h1>Are you wondering where to get technological services?</h1>
       <p>Worry no more. At Photo Tech Hub we have you covered with avarieties of services</p>
 
       <div className="price">
         <div className="service">
           <h1>Basic</h1>
-          <p>photogrtaphy/Photo taking</p>
+          <p>Photography</p>
           <p>Web Design</p>
           <div>
             <h3>Web Development</h3>
@@ -20,8 +22,7 @@ function Services () {
             </ul>
           </div>
           <p>Price: $400</p>
-          <button>Sign Up</button>
-          <p>Have an Account?<button>Login</button></p>
+          <p>Have an Account? <a href="login">login</a> <a href="sign up">Sign Up</a></p>
         </div>
 
         <div className="service">
@@ -39,8 +40,7 @@ function Services () {
             </ul>
           </div>
           <p>Price: $1000</p>
-          <button>Sign Up</button>
-          <p>Have an Account?<button>Login</button></p>
+          <p>Have an Account? <a href="login">login</a> <a href="sign up">Sign Up</a></p>
         </div>
       </div>
 
@@ -50,7 +50,10 @@ function Services () {
           <div>
             <h3>Prof Samuel Amo</h3>
             <p>Managing Director at Tech Samples</p>
-           <blockquote>Nathan worked at our organization for three years as a Photographer. His work is good and clean all the time. I highly recomment him and His company<b>Photo Tech Hub</b></blockquote>
+           <q>Nathan worked at our organization for three years as a Photographer. His work is good and clean all the time. I highly recomment him and His company<b>Photo Tech Hub</b></q>
+           
+           {/* rating  */}
+           <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
           </div>
         </section>
 
@@ -59,7 +62,10 @@ function Services () {
           <div>
             <h3>Mr Mungala</h3>
             <p> Director at TCS Group of companies</p>
-            <blockquote>Nathan worked at our organization for three years as a Web Administartor. His work is good and clean all the time. I highly recomment him and His company<b>Photo Tech Hub</b></blockquote>
+            <q>Nathan worked at our organization for three years as a Web Administartor. His work is good and clean all the time. I highly recomment him and His company<b>Photo Tech Hub</b></q>
+
+              {/* rating  */}
+           <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
           </div>
         </section>
 
@@ -68,7 +74,10 @@ function Services () {
           <div>
             <h3>Dr Caroline</h3>
             <p>lecture at Oxford Universty</p>
-            <blockquote>For the one year Nathan worked at our department as photogrtaphy we really his quality services. I therefore highly him for his goodwork and dedication.</blockquote>
+            <q>For the one year Nathan worked at our department as photogrtaphy we really his quality services. I therefore highly him for his goodwork and dedication.</q>
+
+              {/* rating  */}
+           <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
           </div>
         </section>
 
@@ -77,7 +86,10 @@ function Services () {
           <div>
            <h3>Mr Ronald</h3>
             <p>A business man</p>
-            <blockquote>We invited Nathan to take photos and record videos at our wedding. Sincerly, whenever we look at the memorable photos we always remember him. He is an experienced man and all his team at Photo Tech Hub</blockquote>
+            <q>We invited Nathan to take photos and record videos at our wedding. Sincerly, whenever we look at the memorable photos we always remember him. He is an experienced man and all his team at Photo Tech Hub</q>
+
+              {/* rating  */}
+           <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
           </div>
         </section>
       </section>

@@ -17,7 +17,8 @@
 
 .hero-image {
   padding-top: 1rem;
-  height: 600px;
+  height: 70vh;
+  width: 100%;
   animation: animate 15s infinite alternate;
   overflow: hidden;
   background-image: url("./../images1/photo.jpg");
@@ -36,7 +37,7 @@
   left: 50%; 
    transform: translate(-50%, -50%); 
   color: rgb(0, 98, 255);
-  font-size: 30px;
+  font-size: 1.8em;
 }
 @keyframes animate1 {
   0% { transform: rotate(30deg) }

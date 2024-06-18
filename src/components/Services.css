@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.services h1 {
+  background-color: rgb(0, 204, 255);
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-size: x-large;
+  text-align: center;
+}
+.price {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  margin: 1rem;
+  padding: 0;
+  border: 1px solid rgb(0, 204, 255);
+}
+.service li {
+  list-style-type: none;
+}
+.service h3, .service p:not(p:last-child), .service li {
+padding: 14px;
+text-align: center;
+border-bottom: 1px solid;
+margin: 0;
+}
+ .service p:hover, .service li:hover{
+  box-shadow: 0 2px 4px 0 rgb(194, 193, 193);
+ } 
+#reviews {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.reviews {
+  /* display: flex;
+  gap: 1rem; */
+  margin: 1rem;
+  padding: 1rem;
+  width: 200px;
+  border: 1px solid rgb(0, 204, 255);
+  border-radius: 4px;
+}
+.reviews:hover {
+  box-shadow: 0 2px 4px 0px rgb(0, 204, 255);
+}
+.reviews img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+ p i {
+  color: rgb(134, 134, 12);
+ }
