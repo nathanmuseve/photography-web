@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.blogs {
+    background-color: aq;
+}
+#content aside {
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 4px;
+    float: right;
+    overflow: auto;
+}
+#content aside {
+    content: "";
+    clear: both;
+    display: table;
+}
+#content img {
+    width: 200px;
+    height: auto;
+}
