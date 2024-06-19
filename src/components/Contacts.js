@@ -22,7 +22,10 @@ function Contacts() {
             <li>Home</li>
           </ul>
         </section>
-        <form id="myForm">
+
+        <div id="myForm">
+          <h3>let's talk business...</h3>
+          <form>
 
             <input type="text" name="Name" placeholder="Name" required/>
 
@@ -32,13 +35,14 @@ function Contacts() {
 
             <textarea value='' placeholder="write something.."></textarea>
 
-          <button type="submit"> <i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
+            <button type="submit"> <i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
 
-          <p>
-            <a href="#" >SignUp</a> 
-            <a href="#" >Login</a>
-          </p>
-        </form>
+            <p>
+              <a href="#" >SignUp</a> 
+              <a href="#" >Login</a>
+            </p>
+          </form>
+        </div>
       </div>
 
       <div className="media">

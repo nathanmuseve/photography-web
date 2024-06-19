@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.signUp {
+  background-color: rgb(0, 204, 255);
+  margin: 2rem 15%;
+  padding: 2rem;
+  border: 2px solid rgb(25, 29, 29);
+  border-radius: 4px;
+}
+.signUp h1, .signUp p {
+  text-align: center;
+  font-size: normal;
+}
+.signUp label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.signUp span {
+  color: rgb(179, 45, 45);
+}
+.signUp input[type=text], .signUp input[type=email], .signUp input[type=number], .signUp input[type=password], .signUp input[type=date], .signUp button[type=button], .signUp button, .signUp select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 204, 255);
+  border-radius: 3px;
+  outline: none;
+}
+.signUp .dflex2 {
+  display: flex;
+  gap: 1rem;
+}
