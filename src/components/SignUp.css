@@ -33,3 +33,9 @@
   display: flex;
   gap: 1rem;
 }
+.signUp .dflex2:first-child {
+  background-color: green;
+}
+.signUp .dflex2:last-child {
+  background-color: rgb(163, 61, 61);
+}

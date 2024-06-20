@@ -1,6 +1,34 @@
+import { useState } from "react";
 import "./Contacts.css"
 
 function Contacts() {
+
+  const [data, setData] = useState({});
+  const [textarea, setTextarea] = useState('');
+
+  const handleChange = (event) => {
+    let name = event.target.name;
+    let value = event.target.value;
+    setData(values => ({...values, [name]:value}))
+  }
+
+  const handleTextarea = (event) => {
+    setTextarea(event.target.value)
+  }
+
+  const ClearOutPuts = (event) => {
+    Array.from (event.target).forEach((e) =>(e.value = " "));
+  }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    ClearOutPuts(event);
+    
+    console.log(data);
+    setData('');
+    setTextarea('');
+  }
+
   return (
     <div className="contacts">
       <p>Please reach on us quickly<quote> <b>Furahia services zetu. Huduma bora kwa wote!</b></quote></p>
@@ -25,15 +53,15 @@ function Contacts() {
 
         <div id="myForm">
           <h3>let's talk business...</h3>
-          <form>
+          <form onSubmit={handleSubmit}>
 
-            <input type="text" name="Name" placeholder="Name" required/>
+            <input type="text" name="Name" value={data.Name} placeholder="Name" required onChange={handleChange}/>
 
-            <input type="email" name="Email" placeholder="Email" required />
+            <input type="email" name="Email" value={data.Email} placeholder="Email" required  onChange={handleChange}/>
 
-            <input type="text" name="Subject" placeholder="Subject" />
+            <input type="text" name="Subject" value={data.Subject} placeholder="Subject" onChange={handleChange}/>
 
-            <textarea value='' placeholder="write something.."></textarea>
+            <textarea value={textarea} placeholder="write something.." onChange={handleTextarea}></textarea>
 
             <button type="submit"> <i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
 

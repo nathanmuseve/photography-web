@@ -31,3 +31,9 @@
   display: flex;
   gap: 1rem;
 }
+.login .dflex1:first-child {
+  background-color: green;
+}
+.login .dflex1:last-child {
+  background-color: rgb(163, 61, 61);
+}
