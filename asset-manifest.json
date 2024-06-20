@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/photography-web/static/css/main.323327ed.css",
+    "main.js": "/photography-web/static/js/main.c893bacb.js",
+    "static/js/453.e5544285.chunk.js": "/photography-web/static/js/453.e5544285.chunk.js",
+    "static/media/photo.jpg": "/photography-web/static/media/photo.cab4243f6c1705b748f9.jpg",
+    "static/media/photo-train.jpg": "/photography-web/static/media/photo-train.2fdf2bdcea29969595db.jpg",
+    "static/media/photo-train1.jpg": "/photography-web/static/media/photo-train1.4e8f3a95ec9a2bb06ae6.jpg",
+    "static/media/photography-bg.jpg": "/photography-web/static/media/photography-bg.3f63eea0889ba43ee81c.jpg",
+    "static/media/photo1-bg.jpg": "/photography-web/static/media/photo1-bg.d6a22be2da1511f61952.jpg",
+    "static/media/photo4-bg.jpg": "/photography-web/static/media/photo4-bg.3ff2a0159a5fc5972a2f.jpg",
+    "static/media/photo3-bg.jpg": "/photography-web/static/media/photo3-bg.41312e743ea6612551b8.jpg",
+    "static/media/professional-pht1.jpg": "/photography-web/static/media/professional-pht1.df3f26a3f24d10d9d080.jpg",
+    "static/media/manager1.jpg": "/photography-web/static/media/manager1.742fee96427f44c2a52e.jpg",
+    "static/media/professional-pht.jpg": "/photography-web/static/media/professional-pht.7e7de447d5e55b97533a.jpg",
+    "static/media/professional-pht2.jpg": "/photography-web/static/media/professional-pht2.174377f658caa5a2217b.jpg",
+    "static/media/photo2-bg.jpg": "/photography-web/static/media/photo2-bg.600cee48f97c12e4a78f.jpg",
+    "static/media/manager3.jpg": "/photography-web/static/media/manager3.067ef05a6008ad4854f3.jpg",
+    "static/media/manager2.jpg": "/photography-web/static/media/manager2.20131824d07cac7c6c73.jpg",
+    "static/media/manager.jpg": "/photography-web/static/media/manager.05b66450df7425221cf4.jpg",
+    "index.html": "/photography-web/index.html",
+    "main.323327ed.css.map": "/photography-web/static/css/main.323327ed.css.map",
+    "main.c893bacb.js.map": "/photography-web/static/js/main.c893bacb.js.map",
+    "453.e5544285.chunk.js.map": "/photography-web/static/js/453.e5544285.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.323327ed.css",
+    "static/js/main.c893bacb.js"
+  ]
+}
