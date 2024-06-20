@@ -11,6 +11,7 @@
   background-color: rgb(0, 204, 255);
   border: 2px solid rgb(25, 29, 29);
   border-radius: 4px;
+  box-shadow: 0 10px 12px 4px rgb(65, 166, 191);
 }
 .login label {
   font-size: 24px;
@@ -31,9 +32,32 @@
   display: flex;
   gap: 1rem;
 }
-.login .dflex1:first-child {
+.login .dflex1 #bgGreen {
   background-color: green;
 }
-.login .dflex1:last-child {
+.login .dflex1 #bgGreen:hover {
+  background-color: #29ea30;
+}
+.login .dflex1 #bgRed{
   background-color: rgb(163, 61, 61);
+}
+.login .dflex1 #bgRed:hover{
+  background-color: rgb(222, 9, 9);
+}
+@media (min-width:360px) and (max-width:600px) {
+  .login {
+    display: block;
+    margin: 0.8rem 10%;
+    padding: 0.8rem;
+    box-shadow: none;
+  }
+  .login label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .login .dflex1 {
+    display: block;
+    gap: 0.8rem;
+  }
 }

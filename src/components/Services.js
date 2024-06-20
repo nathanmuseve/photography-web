@@ -1,9 +1,10 @@
 
+import Contacts from "./Contacts";
 import "./Services.css"
 function Services () {
   return (
     <div className="services">
-      <h1>Are you wondering where to get technological services?</h1>
+      <h1 id="head">Are you wondering where to get technological services?</h1>
       <p>Worry no more. At Photo Tech Hub we have you covered with avarieties of services</p>
 
       <div className="price">
@@ -44,7 +45,11 @@ function Services () {
         </div>
       </div>
 
-      <section id="reviews">
+      <div>
+        <h2>Reviews</h2>
+        <p>My reputations.</p>
+
+        <section id="reviews">
         <section className="reviews">
           <img src={require("./../images1/manager.jpg")} alt="manager2" />
           <div>
@@ -92,7 +97,11 @@ function Services () {
            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
           </div>
         </section>
+        
       </section>
+      </div>
+      {/* imported contacts form  */}
+      <Contacts />
     </div>
   );
 }

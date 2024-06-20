@@ -1,4 +1,5 @@
 import "./Blogs.css"
+import Contacts from "./Contacts";
 function Blogs() {
     return (
         <div className="blogs">
@@ -9,7 +10,7 @@ function Blogs() {
                 <h2>Incredible Photography Techniques and Photo Tutorials</h2>
                 <p>Over the recent months we’ve been presenting various showcases of photography – while many readers hated the showcases, most readers found them inspirational and perfect for a lousy workday’s morning. However, what we should have done in the inspirational posts is not just provide you with some inspiration for your work, but also present useful photographic techniques which can help you to achieve optimal pictures for your designs. And as requested by many of you, now it’s time to correct our mistake.</p>
                 <aside>
-                   <img src={require("./../images1/manager.jpg")} />
+                   <img src={require("./../images1/manager.jpg")} alt="deco" />
                    <h3>About the author</h3>
                    <p><b>Nathan</b> loves moving forwward without giving up easily or giving in to the wrong ideas from peers</p>
                 </aside>
@@ -38,6 +39,7 @@ function Blogs() {
                 <h2>What are the 3 most important principles in photography?</h2>
                 <p>Understand the exposure triangle. The exposure triangle simply refers to the three most important elements of exposure; ISO, aperture and shutter speed.</p>
             </div>
+            <Contacts />
         </div>
     );  
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Login.css"
+import Contacts from "./Contacts";
 function Login() {
   const [user, setUser] = useState({});
 
@@ -22,21 +23,26 @@ function Login() {
   }
 
   return (
-    <div className="login">
-      <form className="myForm" onSubmit={handleSubmit}>
-        <label htmlFor="username" >username <span>*</span></label>
-        <input type="text" id="username" name="Username" value={user.username} placeholder="username" required onChange={handleChange}/>
+    <div>
 
-        <label htmlFor="]pswd">Password <span>*</span></label>
-        <input type="password" name="Password" value={user.Password} required onChange={handleChange}/>
+      <div className="login">
+        <form className="myForm" onSubmit={handleSubmit}>
+          <label htmlFor="username" >username <span>*</span></label>
+          <input type="text" id="username" name="Username" value={user.username} placeholder="username" required onChange={handleChange}/>
 
-        <div className="dflex1">
-          <button type="submit">Login</button>
-          <button>cancel</button>
-        </div>
+          <label htmlFor="]pswd">Password <span>*</span></label>
+          <input type="password" name="Password" value={user.Password} required onChange={handleChange}/>
 
-        <p>Don't have an Account? <a href="login" >login</a></p>
-      </form>
+          <div className="dflex1">
+            <button id="bgGreen" type="submit">Login</button>
+            <button id="bgRed">cancel</button>
+          </div>
+
+          <p>Don't have an Account? <a href="login" >login</a></p>
+        </form>
+      </div>
+
+      <Contacts />
     </div>
   );
 }

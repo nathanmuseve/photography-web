@@ -16,6 +16,7 @@
 }
 
 .hero-image {
+  /* margin-left: 20%; */
   padding-top: 1rem;
   height: 70vh;
   width: 100%;
@@ -70,4 +71,12 @@
 button a {
   text-decoration: none;
   color: rgb(28, 75, 142);
+}
+/* Media Query  */
+@media (max-width: 360px) {
+  .hero-text h1 {
+    font-size: 1.2em;
+    transform: none;
+    animation: none;
+  }
 }

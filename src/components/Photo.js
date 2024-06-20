@@ -1,4 +1,3 @@
-import Gallery from "./Gallery"
 
 function Photo() {
   const galleryImages = [
@@ -79,10 +78,16 @@ function Photo() {
     }
   ]
 
+  const containerStyles = {
+    width: '500px',
+    height: '200px',
+    margin: '0 auto'
+  };
   return (
     <div>
-      <strong>Our sample images</strong>
-      <Gallery galleryImages={galleryImages} />
+      <strong>Our sample images {galleryImages}</strong>
+      <div style={containerStyles}>
+      </div>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 import "./Contacts.css"
 
@@ -41,14 +42,30 @@ function Contacts() {
         </ul>
 
         <section className="return-menu">
-          <ul>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-          </ul>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/services">Services</Link>
+          </li>
+          <li>
+            <Link to="/photo">Photo</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
+          <li>
+            <Link to="/sign-up">SignUp</Link>
+          </li>
+        </ul>
+        <Outlet />
         </section>
 
         <div id="myForm">
