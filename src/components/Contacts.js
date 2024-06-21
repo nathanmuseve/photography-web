@@ -82,9 +82,9 @@ function Contacts() {
 
             <button type="submit"> <i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
 
-            <p>
-              <a href="#" >SignUp</a> 
-              <a href="#" >Login</a>
+            <p id="sign">
+              <a href="sign-up" >SignUp</a> 
+              <a href="login" >Login</a>
             </p>
           </form>
         </div>
@@ -92,11 +92,11 @@ function Contacts() {
 
       <div className="media">
         <section id="media" >
-          <a href="#" ><i class="fa-brands fa-github"></i></a>
-          <a href="#" ><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#" ><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#" ><i class="fa-brands fa-discord"></i></a>
-          <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+          <a href="github" ><i class="fa-brands fa-github"></i></a>
+          <a href="" ><i class="fa-brands fa-linkedin"></i></a>
+          <a href="" ><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="" ><i class="fa-brands fa-discord"></i></a>
+          <a href="" ><i class="fa-brands fa-facebook"></i></a>
         </section>
         <p><b>&copy; 2024.</b> All rights reserved</p>
         <p>Photo Tech Hub version 1.0.0</p>

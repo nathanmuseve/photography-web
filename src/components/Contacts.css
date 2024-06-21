@@ -27,6 +27,10 @@
 .dflex ul li i {
   margin-right: 12px;
 }
+.return-menu ul li a{
+  color: white;
+  text-decoration: none;
+}
 #myForm {
   width:300px;
   background-color: white;
@@ -47,6 +51,15 @@
 #myForm button:hover {
   cursor: pointer;
   background-color: rgb(0, 204, 255);
+}
+#myForm #sign {
+  display: flex ;
+  justify-content: center;
+  gap: 1rem;
+}
+#myForm #sign a {
+  color: rgb(0, 136, 255);
+  text-decoration: none;
 }
 .media {
   display: flex;

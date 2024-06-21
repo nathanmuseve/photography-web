@@ -44,6 +44,12 @@
 .login .dflex1 #bgRed:hover{
   background-color: rgb(222, 9, 9);
 }
+.login p:last-child a {
+  text-decoration: none;
+  color: rgb(3, 132, 244);
+  font-size: 1.2rem;
+
+}
 @media (min-width:360px) and (max-width:600px) {
   .login {
     display: block;

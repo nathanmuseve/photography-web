@@ -23,7 +23,7 @@ function Services () {
             </ul>
           </div>
           <p>Price: $400</p>
-          <p>Have an Account? <a href="login">login</a> <a href="sign up">Sign Up</a></p>
+          <p id="sign">Have an Account? <a href="login">login</a> <a href="sign-up">Sign Up</a></p>
         </div>
 
         <div className="service">
@@ -41,7 +41,7 @@ function Services () {
             </ul>
           </div>
           <p>Price: $1000</p>
-          <p>Have an Account? <a href="login">login</a> <a href="sign up">Sign Up</a></p>
+          <p id="sign">Have an Account? <a href="login">login</a> <a href="sign-up">Sign Up</a></p>
         </div>
       </div>
 

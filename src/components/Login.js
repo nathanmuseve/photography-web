@@ -38,7 +38,7 @@ function Login() {
             <button id="bgRed">cancel</button>
           </div>
 
-          <p>Don't have an Account? <a href="login" >login</a></p>
+          <p>Don't have an Account? <a href="sign-up" >SignUp</a></p>
         </form>
       </div>
 

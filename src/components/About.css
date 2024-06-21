@@ -94,6 +94,11 @@
   width: 100%;
   padding: 7px;
 }
+.ebtn a {
+  text-decoration: none;
+  color: rgb(0, 136, 255);
+  font-size: 1.2rem;
+}
 .soft-skills ul {
 display: flex;
 gap: 6px;
@@ -101,7 +106,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
-.soft-skills ul li {
+.soft-skills ul li:not(:last-child) {
   list-style-type: none;
   padding:0 4px;
   border-right: 2px solid  rgb(105, 189, 231);

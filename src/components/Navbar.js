@@ -22,7 +22,7 @@ function Navbar() {
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/photo">Photo</Link>
+            <Link to="/gallery">Gallery</Link>
           </li>
           <li>
             <Link to="/blogs">Blogs</Link>

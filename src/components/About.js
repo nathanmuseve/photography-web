@@ -52,7 +52,7 @@ function About() {
             <div>
               <p>While running the company or any organization is not easy.Okay leave alone running, starting is not something many dream but it remain just as a mere dream</p>
               <p>Went to universty and starting something not close to technology. But technological skilss started to unfold the moment I was invited to a certain interview. I was the best candidate who stood out with the academic qualification but unfortunately the task required more use of computer than just a hand and a pen.</p>
-              <p>As a man who never give up I decided to seach for knowledge in computer that led me enrolling for computer basic skills.<button className="jbtn">Read more</button></p>
+              <p>As a man who never give up I decided to seach for knowledge in computer that led me enrolling for computer basic skills.<button className="jbtn"> <a href="about" >Read more</a></button></p>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ function About() {
             <p>Ongoing Projetcs</p>
           </div>
 
-          <button className="ebtn" >have an account? <a href="Login.js">login </a> </button>
+          <button className="ebtn" >Have an account? <a href="login">login </a> </button>
         </div>
 
       </div>
